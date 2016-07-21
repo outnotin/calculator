@@ -1,0 +1,44 @@
+isEqualPress
+isOperatorPress
+isNumberPress
+
+Calculate(float firstnum, float secondnum, String operator){
+
+}
+
+======================================================================================
+case : 1 + =			: 2
+--------------------------------------------------------------------------------------
+stringBuffer = 1;
+firstNumberString = stringBuffer;
+operator = plus;
+isNumberPress = true;
+isOperatoePress = true;
+
+equalButton(){
+	if(firstNumberString == stringBuffer || stringBuffer == "" || isOperatorPress == true){
+		try{
+			firstNumber = Float.valueOf(firstNumberString);
+			Calculate(firstNumber, firstNumber, operator);
+		}catch(Exception e){
+		}
+	}
+
+}
+======================================================================================
+case : 1 + 1 =			: 2
+--------------------------------------------------------------------------------------
+isNumberOperator = true;
+isOperator = true;
+
+equalButton(){
+	if(isNumberOperator
+}
+
+======================================================================================
+case : 1 + 1 + 		: 2
+--------------------------------------------------------------------------------------
+======================================================================================
+
+
+number { isEqualPress = false; isOperatorPress = false; isNumberPress = true; }
