@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.augmentis.ayp.calculator.MainActivity">
+
+    <TextView
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:text="Hello World!"
+        android:textSize="20dp"
+        android:id="@+id/calculation_text"/>
+
+    <TextView
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:text="Test"
+        android:textSize="60dp"
+        android:id="@+id/result_text"/>
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/clear_button"
+            android:text="C"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/divide_button"
+            android:text="/"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/multiple_button"
+            android:text="*"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/backspace_button"
+            android:text="&lt;---"/>
+
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/seven_button"
+            android:text="7"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/eight_button"
+            android:text="8"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/nine_button"
+            android:text="9"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/minus_button"
+            android:text="-"/>
+
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/four_button"
+            android:text="4"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/five_button"
+            android:text="5"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/six_button"
+            android:text="6"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/plus_button"
+            android:text="+"/>
+
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/one_button"
+            android:text="1"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/two_button"
+            android:text="2"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/three_button"
+            android:text="3"/>
+        <Button
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/equal_button"
+            android:text="="/>
+
+        <Button
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="1"
+            android:layout_gravity="fill"
+            android:id="@+id/zero_button"
+            android:text="0"/>
+
+
+
+    </GridLayout>
+</LinearLayout>
